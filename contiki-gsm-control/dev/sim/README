@@ -1,0 +1,11 @@
+********SIM900 GSM/GPRS module integrated with Zolertia's RE-mote**********
+
+1. Hardware pin conections - Rx, Tx, Gnd of sim900 connected to Rx1, Tx1 and Gnd of RE-mote (Rx0, Tx0 already used internally)
+
+2. Software - Contiki at-test api found in the path - examples/zolertia/zoul/at-test/
+	> Disadvantages: Rigid code due to AT commands.
+	> Can be made modular by 
+
+Code Structure:
+simdriver.h - Driver Struc definitions and function definitions
+simdriver.c - driver function initialized
