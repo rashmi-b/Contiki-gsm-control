@@ -5,4 +5,4 @@ AT command have been abstracted and user can send comands from host such as sim_
 The AT command send code pulled from Zolertia's at-test-master by Antonio Lignan <alinan@zolertia.com>
 This version adapted for SIM900 module integrated with Zolertia's RE-mote (Zoul platform). 
 contiki/dev/sim/ contains at command set and FSM to handle commands from host
-Custom host code to send command to activate gsm module can be found at host-side.c
+Custom host code to send command to activate gsm module can be found at host-command/host-side.c
